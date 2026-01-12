@@ -22,6 +22,28 @@
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/style.css" />
     </head>
+    <style>
+        .tooltip {
+  cursor: help; /* shows ? pointer */
+  position: static; /* keep layout as-is */
+}
+
+.custom-tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 1000;
+  max-width: 200px;      /* limit width */
+  word-wrap: break-word;  /* wrap long words if needed */
+  white-space: normal;    /* allow multiple lines */
+}
+
+    </style>
     <body>
         <!-- ACCESSIBILITY-->
         <div id="skip"><a href="#content">Skip to content</a></div>
@@ -37,7 +59,7 @@
                     </div>
                     
                     <div class="icon">
-                        <img src="IMG_081011.jpg" loading="lazy" alt="" />
+                        <img src="IMG_08941.jpg" loading="lazy" alt="" />
                     </div>
                     <div class="description">
                         <p><b> Marketing Executive </b></p>
@@ -56,13 +78,15 @@
             <main id="content">
                 <section>
                     <h1>Amelie Commins' Portfolio</h1>
-                    <p>Hi! I am a marketing and media focused graduate with <b>three years of experience</b> delivering content led campaigns for student organisations and small businesses. My work spans <b>email, social media, video</b>, and <b>events</b>,        <img src="IMG_1144.jpg" class="float-img-right image-glow" alt="" width="150">
- with a consistent focus on audience engagement and brand visibility.</p> 
+<p>Hello! I am a marketing and media-focused graduate with <b>three years of experience</b> delivering content-led campaigns for student organisations and small businesses. My work spans <b>email marketing, social media, video content</b>, and <b>events</b>, with a consistent focus on audience engagement and brand visibility. 
 
-                    <p>Across roles, my campaigns have delivered measurable results, including an <b>average 65 percent increase in event attendance</b> and digital content reaching up to <b>185,000 views on Instagram</b>. I work across planning and execution, using tools such as <b>Canva, Adobe Creative Suite, Omnisend, and Google Analytics</b> to turn ideas into performance.</p>
-                    
-                    
-                    <p>Alongside marketing, I am developing <b>front end web skills</b> in <b>HTML, CSS, and JavaScript</b> to better understand how layout, UX, and development support effective digital marketing. To view my latest web project, <a href="https://qmclic.github.io/MadLabs-Project/"> click here! </a></p>
+    <img src="IMG_1144.jpg" data-title="This is from when I got to meet Chevalière d'Éon in Amsterdam!"  class="float-img-right image-glow tooltip"alt="" width="150">
+</p>
+
+<p>Across roles, my campaigns have delivered measurable results, including consistent digital content reaching <b>1,000+ views per post</b> and one viral Instagram Reel with <b>185,000 views</b>, as well as an <b>average 65 percent increase in event attendance</b>. I work across planning and execution, using tools such as <b>Canva, Adobe Creative Suite, Omnisend, and Google Analytics</b> to turn ideas into performance.</p>
+
+<p>Alongside marketing, I am developing <b>front-end web skills</b> in <b>HTML, CSS, and JavaScript</b> to better understand how layout, UX, and development support effective digital campaigns. To view my latest web project, <a href="https://qmclic.github.io/MadLabs-Project/"    target="_blank" 
+   rel="noopener noreferrer">click here!</a></p>
                     
                     </details>
                 </section>
@@ -80,11 +104,35 @@
 <p>Assisted with website updates and content management using <b>Shopify</b>.</p><hr>
                     <h4>Sample Work</h4>
                     <p>Instagram Reel and Newsletters.</p>
-<a href="https://www.instagram.com/reel/C3unYFTofXj/" target="_blank"title="1,020 views"><img src="Screenshot (7).png " alt="Instagram Reel" height="250" style="cursor:pointer;"></a>
 
-<a href="Email Marketing Sample.pdf" target="_blank" title="Download PDF to see more"><img src="Screenshot (10).png " alt="Instagram Reel" height="250" style="cursor:pointer;"></a>
 
-<a href="Email Marketing Sample 2.pdf" target="_blank" title="Download PDF to see more"><img src="Screenshot (9).png " alt="Instagram Reel" height="250" style="cursor:pointer;"></a>
+<a href="https://www.instagram.com/reel/DO9BEWMjSA9/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" 
+   target="_blank" 
+   class="tooltip" 
+   data-title="1,030 views. Click to go to the video!">
+  <img src="Screenshot (7).png" 
+       alt="Instagram Reel" 
+       height="250px">
+</a>
+
+<a href="Email Marketing Sample.pdf" target="_blank" 
+       rel="noopener noreferrer"
+>
+  <img src="Screenshot (10).png" 
+       alt=" Newsletter" 
+       height="250"  
+              class="tooltip" 
+       data-title="Download PDF to see it in full">
+</a>
+
+<a href="Email Marketing Sample 2.pdf"  target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (9).png" 
+       alt="Newsletter" 
+       height="250"  
+      class="tooltip" 
+       data-title="Download PDF to see it in full">
+</a>
                 </section>
 
     
@@ -102,22 +150,55 @@
 <hr>
 
                    <h4>Sample Work</h4>
-                                        <p>Graphic designs (online & offline), Newsletter and Instagram Reels.</p>
+                                        <p>Graphic designs (used online & offline), Newsletter and Instagram Reels.</p>
 
-               <img src="tidalwavesposter.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="tidalwavesposter2.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="tidalwavesposter3.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="tidalwavesposter4.jpg" alt="Instagram Reel" width="160"></a>
+               <img src="tidalwavesposter.jpg" alt="Graphic Design" width="160"></a>
+               <img src="tidalwavesposter2.jpg" alt="Graphic Design" width="160"></a>
+               <img src="tidalwavesposter3.jpg" alt="Graphic Design" width="160"></a>
+               <img src="tidalwavesposter4.jpg" alt="Graphic Design" width="160"></a>
 
                                         <br>
 
-<a href="https://www.instagram.com/reel/DAlmxpwi41U/" target="_blank"title="800 views"><img src="Screenshot (6).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
 
-<a href="https://www.instagram.com/reel/DAg5JmdCKCe/" target="_blank"title="860 views"><img src="Screenshot (5).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
+<a href="https://www.instagram.com/reel/DAlmxpwi41U/" target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (6).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="800 views. Click to go to the video! ">
+</a>
 
-<a href="https://www.instagram.com/reel/DAeZmDViUi1/" target="_blank"title="830 views"><img src="Screenshot (4).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
-<a href="SU WebPage-1.pdf" target="_blank" title="Download PDF to see more"><img src="SU WebPage(1).jpg" alt="Email" width="160" style="cursor:pointer;"></a>
+<a href="https://www.instagram.com/reel/DAg5JmdCKCe/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (5).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="860 views. Click to go to the video! ">
+</a>
 
+
+<a href="https://www.instagram.com/reel/DAeZmDViUi1/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (4).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="830 views. Click to go to the video! ">
+</a>
+
+<a href="SU WebPage-1.pdf"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="SU WebPage(1).jpg" 
+       alt="Newsletter" 
+width="160"
+       class="tooltip" 
+       data-title="Download PDF to see it in full">
+</a>
 
 
                 </section>
@@ -125,22 +206,61 @@
                 <section>
                     <h2>Aberystwyth Dog Society: Social Media</h2>
                     <h3>(2023 November – 2024 April)</h3>
-<p>Managed the organisation's <b>Instagram</b> account, producing, filming, and editing content that achieved <b>up to 185k views on Instagram</b>.</p> 
+<p>Managed the organisation's <b>Instagram</b> account, shifting content focus from static posts to <b>Reels</b> to increase reach and engagement. Typical posts reached <b>four-figure view counts</b>, including one viral Reel with <b>185k views</b>.</p>
 
-<p>Planned and executed campaigns to increase engagement, including <b>reels, stories, and posts</b> with consistent branding and performance analysis.</p> 
+<p>Planned and executed Reel-led campaigns to promote events and initiatives, contributing to an <b>over 40 percent increase in attendance</b> through targeted social promotion.</p>
 
-<p>Monitored <b>analytics and audience interaction</b> to optimise content strategy and maintain high engagement levels.</p>
+<p>Monitored <b>analytics and audience interaction</b> to refine content strategy, maintain engagement, and inform ongoing campaign decisions.</p>
+
+
 
 <hr>
                    <h4>Sample Work</h4>
 <p>Instagram Reels.</p>
-                    <a href="https://www.instagram.com/reel/C3unYFTofXj/" target="_blank"title="185K views"><img src="Screenshot (1).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
+                
 
-                    <a href="https://www.instagram.com/reel/C1SMwPkItJg/" target="_blank"title="4K views"><img src="Screenshot (2).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
 
-                    <a href="https://www.instagram.com/reel/C1ihbWeIQ1S/" target="_blank"title="2,750 views"><img src="Screenshot (3).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
+                    <a href="https://www.instagram.com/reel/C3unYFTofXj/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (1).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="185K views. Click to go to the video! ">
+</a>
 
-                    <a href="https://www.instagram.com/reel/C0Ptq6AIMG7/" target="_blank"title="1,500 views"><img src="Screenshot (8).png " alt="Instagram Reel" width="160" style="cursor:pointer;"></a>
+    <a href="https://www.instagram.com/reel/C1SMwPkItJg/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (2).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="4,000 views. Click to go to the video! ">
+</a>
+
+<a href="https://www.instagram.com/reel/C1ihbWeIQ1S/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (3).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="2,750 views. Click to go to the video! ">
+</a>
+
+<a href="https://www.instagram.com/reel/C0Ptq6AIMG7/"
+       target="_blank" 
+       rel="noopener noreferrer">
+  <img src="Screenshot (8).png" 
+       alt="Instagram Reel" 
+width="160"
+       class="tooltip" 
+       data-title="1,500 views views. Click to go to the video! ">
+</a>
+
+
                     </section>
                                 <section>
                     <h2>Aberystwyth Paranormal Society: President</h2>
@@ -153,10 +273,10 @@
 <hr>
  <h4>Sample Work</h4>
                     <p>Graphic designs published to Instagram, Discord, and Whatsapp.</p>
-               <img src="paranormal.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="paranormal2.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="paranormal3.jpg" alt="Instagram Reel" width="160"></a>
-               <img src="paranormal4.jpg" alt="Instagram Reel" width="160"></a>
+               <img src="paranormal.jpg" alt="Graphic Design" width="160"></a>
+               <img src="paranormal2.jpg" alt="Graphic Design" width="160"></a>
+               <img src="paranormal3.jpg" alt="Graphic Design" width="160"></a>
+               <img src="paranormal4.jpg" alt="Graphic Design" width="160"></a>
 
 
 
@@ -174,7 +294,7 @@
     <br>MS Office (including Excel and Outlook), Google Workspace, Google Analytics, Trello
   </li> 
   <li><b>Web & Development</b>
-    <br>WordPress, HTML, CSS, Javascript, GitHub, Visual Studio Code, UX fundamentals
+    <br>WordPress, HTML, CSS, JavaScript, GitHub, Visual Studio Code, UX fundamentals
   </li>
   <li><b>Event & Project Management</b>
     <br>Volunteer coordination, Event planning, Scheduling, Budget management
@@ -211,9 +331,9 @@
         <li><strong>Author</strong>, 'About the King's Beautiful Daughter,' in <em>Crossroads</em>, Aberystwyth 2025 Creative Writing MA anthology</li>
         <li><strong>Co-editor & Author</strong>, 'Ode to a Lovely Spring,' in <em>Aberystwyth Publishing Society 2025 Anthology</em></li>
         <li><strong>Co-editor</strong>, 'Spiralling,' in <em>AberInk Summer 2025</em>, Aberystwyth English & Creative Writing Society journal</li>
-        <li><strong>Journalist</strong>, 'Tidal Waves Makes Some Noise,' in <em>Mouth of Ystwyth</em>, Issue 4 (Nov 2024), Aberystwyth University Student Newspaper</li>
-        <li><strong>Journalist</strong>, 'The Three Musketeers: Shakespeare Meets Netflix,' in <em>Mouth of Ystwyth</em>, Issue 3 (Nov 2024), Aberystwyth University Student Newspaper </li>
-        <li><strong>Uncredited Editor</strong>, 'Beyond Horizons,' in <em>AberInk Summer 2024</em>, Aberystwyth English & Creative Writing Society journal</li>
+        <li><strong>Reviewer</strong>, 'Tidal Waves Makes Some Noise,' in <em>Mouth of Ystwyth</em>, Issue 4 (Nov 2024), Aberystwyth University Student Newspaper</li>
+        <li><strong>Reviewer</strong>, 'The Three Musketeers: Shakespeare Meets Netflix,' in <em>Mouth of Ystwyth</em>, Issue 3 (Nov 2024), Aberystwyth University Student Newspaper </li>
+        <li><strong>Proofreader</strong>, 'Beyond Horizons,' in <em>AberInk Summer 2024</em>, Aberystwyth English & Creative Writing Society journal</li>
     </ul>
 
 </section>
@@ -235,8 +355,13 @@
                 <section>
     <h3>Contact Me</h3>
     <p>
-        For opportunities, collaborations, or further examples of work, please get in touch via email or LinkedIn.
-        <img src="IMG_08941.jpg" class="float-img-right image-glow" alt="" width="150">
+
+          <img src="Screenshot (20).png" 
+       alt="Amelie" 
+width="130"
+       class="float-img-right image-glow tooltip" 
+       data-title="This is from when I got to meet Dante Alighieri in Paris!">
+</a>
     </p>
 
     <form action="mailto:ameliecommins@gmail.com" method="post" enctype="text/plain">
@@ -260,4 +385,28 @@ Or call: 07591869034        </p>
         <!-- Scroll to Top -->
         <script src="../js/scroll-to-top.js"></script>
     </body>
+    <script>
+        const images = document.querySelectorAll('.tooltip');
+
+const tooltipDiv = document.createElement('div');
+tooltipDiv.className = 'custom-tooltip';
+document.body.appendChild(tooltipDiv);
+
+images.forEach(img => {
+  img.addEventListener('mouseenter', e => {
+    tooltipDiv.textContent = img.dataset.title;
+    tooltipDiv.style.opacity = 1;
+  });
+
+  img.addEventListener('mousemove', e => {
+    tooltipDiv.style.top = e.pageY + 15 + 'px';
+    tooltipDiv.style.left = e.pageX + 15 + 'px';
+  });
+
+  img.addEventListener('mouseleave', () => {
+    tooltipDiv.style.opacity = 0;
+  });
+});
+
+    </script>
 </html>
